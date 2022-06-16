@@ -1,6 +1,6 @@
 ## Pagina de POE
 
-<div>Teachable Machine Image Model</div>
+<d<div>Teachable Machine Image Model</div>
 <button type="button" onclick="init()">Start</button>
 <div id="webcam-container"></div>
 <div id="label-container"></div>
@@ -11,7 +11,7 @@
     // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
     // the link to your model provided by Teachable Machine export panel
-    const URL = "./my_model/";
+    const URL = "https://teachablemachine.withgoogle.com/models/EloKmzZRT/";
 
     let model, webcam, labelContainer, maxPredictions;
 
@@ -59,4 +59,3 @@
         }
     }
 </script>
-
